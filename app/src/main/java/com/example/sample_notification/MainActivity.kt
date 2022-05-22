@@ -76,6 +76,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+        setupStatus()
+    }
+
     private fun setupStatus() {
         findViewById<TextView>(R.id.status_text_view).text =
             if (notificationManager.areNotificationsEnabled()) "enable" else "disable"
