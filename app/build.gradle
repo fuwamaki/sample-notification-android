@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.sample_notification'
-    compileSdk 32
+    compileSdkPreview "Tiramisu"
 
     defaultConfig {
         applicationId "com.example.sample_notification"
         minSdk 24
-        targetSdk 32
+        targetSdkVersion "Tiramisu"
         versionCode 1
         versionName "1.0"
 
