@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Sample-Notification</string>
+    <string name="show_notification_alert">Show Notification Alert</string>
+    <string name="notification_permission_status">Notification Permission Status:</string>
 </resources>
